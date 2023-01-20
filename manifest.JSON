@@ -1,0 +1,13 @@
+{
+
+    "manifest_version": 3,
+    "name": "DAILY JOKES",
+    "version": "1.0.1",
+    "description":"Joke a day keeps Doctor away.",
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"icon.jpeg"
+    }
+
+  
+}

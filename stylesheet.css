@@ -1,0 +1,52 @@
+#headline {
+
+    text-align: center;
+    font-size: medium;
+    color: blueviolet;
+    font-size: larger;
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    /* 
+    position:relative;
+
+    -webkit-animation: move 2s ease 0s;
+    -webkit-animation-iteration-count:infinite;
+    animation: move 2s ease 0s;
+    animation-iteration-count:infinite; */
+}
+
+#joke {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    border: solid rgb(77, 35, 35);
+    background-color: #faf6f6;
+    padding: 20px;
+}
+
+h3 {
+    width: auto;
+    min-width: 300px;
+    height: 100%;
+}
+
+
+@keyframes move {
+    0% {
+        left: -50px;
+    }
+
+    100% {
+        left: 50px;
+    }
+
+}
